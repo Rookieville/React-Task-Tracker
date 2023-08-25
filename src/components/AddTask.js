@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { FaLessThan } from "react-icons/fa"
+
 
 const AddTask = ({ onAdd }) => {
     const [text, setText] = useState('')
